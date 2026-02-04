@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trace Details - OpenClaw Observability</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <a href="/" class="back-link">← Back to traces</a>
+                <h1 id="trace-title">Trace Details</h1>
+                <p class="trace-id" id="trace-id">{{TRACE_ID}}</p>
+            </div>
+        </header>
+
+        <div class="trace-metadata" id="trace-metadata">
+            <!-- Populated by JS -->
+        </div>
+
+        <div class="section">
+            <h2>Execution Graph</h2>
+            <div class="execution-graph" id="execution-graph">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Span Details</h2>
+            <div class="span-list" id="span-list">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Modal for span details -->
+        <div id="span-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="span-detail-content">
+                    <!-- Populated when span is clicked -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const TRACE_ID = "{{TRACE_ID}}";
+    </script>
+    <script src="/static/trace-viewer.js"></script>
+</body>
+</html>
