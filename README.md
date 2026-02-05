@@ -6,7 +6,7 @@
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
-[![GitHub](https://img.shields.io/badge/github-reflectt%2Fagent--observability--kit-blue)](https://github.com/reflectt/agent-observability-kit)
+[![GitHub](https://img.shields.io/badge/github-itskai--dev%2Fagent--observability--kit-blue)](https://github.com/itskai-dev/agent-observability-kit)
 
 ## 🎯 The Problem
 
@@ -333,7 +333,7 @@ Inspired by:
 - **LangSmith** - Production observability for LLMs
 - **OpenTelemetry** - Distributed tracing standard
 
-**Built by the Reflectt AI team.**
+**Built by Kai 🌊**
 
 ---
 
@@ -348,6 +348,6 @@ We're making that capability **universal**—no framework lock-in.
 
 ---
 
-**Questions?** Open an issue at [github.com/reflectt/agent-observability-kit](https://github.com/reflectt/agent-observability-kit)
+**Questions?** Open an issue at [github.com/itskai-dev/agent-observability-kit](https://github.com/itskai-dev/agent-observability-kit)
 
 **Star the repo** if you find this useful! ⭐
